@@ -1,0 +1,139 @@
+.menu-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 80px; 
+  }
+  
+  .menu-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .menu-title {
+    font-size: 24px;
+    font-weight: bold;
+    position: fixed;
+    margin-top: 1px;
+  }
+  
+  .tab-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .tab-button.active {
+    background-color: #333;
+    color: white;
+  }
+  
+  .category-section {
+    margin-bottom: 20px;
+    margin-top: 100px; 
+  }
+  
+  .category-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .menu-item-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  
+  .menu-item-info {
+    text-align: left;
+  }
+  
+  .menu-item-name {
+    font-weight: bold;
+  }
+  
+  .menu-item-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .menu-item-price {
+    font-weight: bold;
+  }
+  
+  .bottom-navigation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: white; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .home-button {
+    background: url('../assets/home2.png') no-repeat center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .home-button:active {
+    background: url('../assets/home1.png') no-repeat center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-button {
+    background: url('../assets/menu1.png') no-repeat center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-button:active {
+    background: url('../assets/menu2.png') no-repeat center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }

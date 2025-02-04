@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  
+  .card {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+  }
+  
+  label {
+    font-family: calibri;
+    color: rgb(196, 195, 195);
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0.9em;
+  }
+
+  input {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    filter: drop-shadow(0 0 0.5em #00000022);
+    padding: 0.6em 1.2em;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: calibri;
+    color: rgb(66, 66, 66);
+    background-color: #ffffff;
+    transition: border-color 0.25s;
+    margin-bottom: 1em;
+  }
+  
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    filter: drop-shadow(0 0 0.5em #00000022);
+    padding: 0.6em 2.2em;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: calibri;
+    color: rgb(66, 66, 66);
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-top:2em;
+  }
